@@ -47,10 +47,10 @@ class ParticlesComponent extends Component {
                   links: {
                     opacity: 0.5,
                   },
-                  radius: 150
+                  radius: 125
                 },
                 grab: {
-                  distance: 150,
+                  distance: 125,
                   links: {
                     blink: false,
                     consent: false,
