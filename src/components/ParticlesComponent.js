@@ -105,7 +105,7 @@ class ParticlesComponent extends Component {
                   sync: false
                 },
                 random: true,
-                value: 2
+                value: 0.5
               },
               shape: {
                 type: "circle"
@@ -124,11 +124,11 @@ class ParticlesComponent extends Component {
             polygon: {
               draw: {
                 enable: true,
-                lineColor: "rgba(255,255,255,0.4)",
-                lineWidth: 0.5
+                lineColor: "rgba(255,255,255,0.5)",
+                lineWidth: 0.6
               },
               move: {
-                radius: 2,
+                radius: 5,
                 type: "path"
               },
               inlineArrangement: "equidistant",
