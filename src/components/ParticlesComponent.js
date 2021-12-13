@@ -95,7 +95,7 @@ class ParticlesComponent extends Component {
               },
               number: {
                 limit: 0,
-                value: 300
+                value: 200
               },
               opacity: {
                 animation: {
