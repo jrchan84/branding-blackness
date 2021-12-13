@@ -13,9 +13,9 @@ This project was implemented entirely by ourselves, with the exception of using 
 - React: Front-end JavaScript library for building user interfaces
 - Firebase: Hosting service
 - Google Cloud Platform: Cloud Storage and Content Delivery Network for serving svg file
-- tsparticles: Lightweight JavaScript animation library for creating particle effect
-- UI Frameworks: 
+- react-tsparticles: Lightweight JavaScript animation library for creating particle effect
+- react-bootstrap: CSS framework
+- FontAwesome: React component library for icons
 - Web Technologies: JavaScript, HTML, CSS, Git
 
-All other images, svg files, artworks, and website styling is our own work.
-
+All other images, svg files, artworks, styling, and content is our own work.

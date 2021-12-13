@@ -1,0 +1,16 @@
+.card {
+  background-color: #1f2029;
+  box-shadow: 20px 25px 30px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+  color: #05f7c0;
+}
+
+.card-footer {
+  font-size: calc(2px + 2vmin);
+}
+
+.statement {
+  font-size: calc(2px + 2vmin);
+}

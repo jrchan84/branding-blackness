@@ -1,9 +1,19 @@
+/* Colours
+background4: #000000
+background3: #0b0b0f
+background2: #16171d
+background1: #1f2029
+container: #1f2029
+text: white
+secondary-text: #989ea0
+highlights: #05f7c0
+
+*/
+
 .App {
   text-align: center;
-}
-
-.wrapper {
-  background-color: #282c34;
+  background: rgb(31,32,41);
+  background: linear-gradient(165deg, rgba(31,32,41,1) 0%, rgba(22,23,29,1) 33%, rgba(11,11,15,1) 66%, rgba(0,0,0,1) 100%);
   min-height: 100vh;
   align-items: center;
   justify-content: center;
@@ -11,7 +21,28 @@
   color: white;
 }
 
-.container {
-  padding: 20px;
-  justify-content: center;
+.icon {
+  color: #05f7c0;
+}
+
+.arrow {
+  text-align: center;
+  margin-top: 50px;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }

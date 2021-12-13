@@ -8,19 +8,16 @@ const media = {
   `
 }
 
-export const Grid = styled.div`
+export const CGrid = styled.div`
 
 `;
 
-export const Row = styled.div`
-  padding: 5px;
-  border: 5px solid green;
+export const CRow = styled.div`
   display: flex;
 `;
 
-export const Col = styled.div`
-  padding: 5px;
-  border: 5px solid blue;
+export const CCol = styled.div`
+
   flex: ${(props) => props.size};
   ${(props) => props.collapse && media[props.collapse](`
     display: none;

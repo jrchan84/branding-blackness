@@ -1,0 +1,11 @@
+.footer {
+  border-radius: 25px;
+  background: #1f2029;
+  font-size: calc(1px + 2vmin);
+  box-shadow: 20px 25px 30px 10px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  color: #05f7c0;
+  margin-right: 5px;
+}

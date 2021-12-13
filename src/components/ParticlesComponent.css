@@ -1,0 +1,13 @@
+.container {
+  justify-content: center;
+  display: block;
+  overflow: visible;
+  padding: 20px;
+  height: auto;
+  width: auto;
+}
+
+#tsparticles {
+  position: relative;
+  margin: 50px 20px 20px 20px;
+}
