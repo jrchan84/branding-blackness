@@ -7,7 +7,7 @@ On the Surveillance of Blackness".
 
 500 word statement
 
-### Implementation
+## Implementation
 
 This project was implemented entirely by ourselves, with the exception of using the following technologies/frameworks:
 - React: Front-end JavaScript library for building user interfaces
