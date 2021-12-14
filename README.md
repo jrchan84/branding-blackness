@@ -10,6 +10,7 @@ Upon hovering along the outlines, the animation renders focused components surro
 In addition to the figure, included is a project statement and summaries of a collection of recent news events involving racial discrimination in biometrics that exemplify the precedence of modern day surveillance and technology and its precautious effects on subjugated bodies — Not only in policing but also in the pursuit of corporate exploitation.
 
 ### Please view on full-screen desktop browsers in order to render the animation and timeline.
+Website demo: https://youtu.be/0YwbmqfMRI8
 
 ## Mission Statement
 
