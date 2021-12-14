@@ -4,7 +4,7 @@ import './Timeline.css';
 
 const examples = [
   {
-      text: 'In what Joshua Scannel touted as a modern day equivalent of New York’s 17th century lantern laws, the NYPD’s Omnipresence is the use of high-intensity artificial lights, flood lights or the flashing roof lights from the police cars throughout the night in certain housing projects –  subjecting people to violent illumination by way of artificial light.',
+      text: 'In what Joshua Scannel touted as a modern day equivalent of New York’s 17th century lantern laws, the NYPD’s Omnipresence is the use of high-intensity artificial lighting during the night in certain housing projects –  subjecting people to violent illumination by way of artificial light.  Though not as explicit as the lantern laws that were forced upon black bodies, these efforts predominantly affect and target people of color; the demographic who make up the majority of these lower income housing projects.',
       title: 'Omnipresence: New York’s Tactic to Prevent Crime',
       link: {
           url:
@@ -13,7 +13,7 @@ const examples = [
       }
   },
   {
-      text: 'According to a 2019 study out of the Georgia Institute of Technology, autonomous vehicles are more likely to fail to detect dark skinned pedestrians, and thus be involved in accidents with them. In their investigation, the authors looked at a large dataset of images that contain pedestrians. They divided up the people using the Fitzpatrick scale, a system for classifying human skin tones from light to dark. Detection was five percentage points less accurate, on average, for the dark-skinned group. That disparity persisted even when researchers controlled for variables like the time of day in images or the occasionally obstructed view of pedestrians.',
+      text: 'According to a 2019 study out of the Georgia Institute of Technology, autonomous vehicles are more likely to fail to detect dark skinned pedestrians, and thus be involved in more accidents with them. In their investigation, the authors looked at a large dataset of images that contain pedestrians. They divided up the people using the Fitzpatrick scale, a system for classifying human skin tones from light to dark. Detection was five percentage points less accurate, on average, for the dark-skinned group. That disparity persisted even when researchers controlled for variables like the time of day in images or the occasionally obstructed view of pedestrians.',
       title: 'Self-Driving Cars Fail to Detect Dark-Skinned Pedestrians',
       link: {
           url:

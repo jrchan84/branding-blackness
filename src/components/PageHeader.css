@@ -2,7 +2,7 @@
   position: relative;
   border-radius: 5px;
   box-shadow: 20px 25px 30px 10px rgba(0, 0, 0, 0.5);
-  width: 400px;
+  width: 500px;
   height: fit-content;
   float: right;
   margin: auto;
@@ -55,10 +55,9 @@
 
 @media only screen and (max-width : 480px) {
   .header-card {
-    width: 290px;
+    width: 250px;
   }
 }
-
 
 .font {
     color: #fff;
