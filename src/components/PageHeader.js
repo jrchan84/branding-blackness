@@ -15,7 +15,7 @@ class PageHeader extends Component {
             </div>
             <div id="screen">
                 <p class="font">slave_1@255.255.255.0:~$</p>
-                <p class="font">A creative statement expanding on Simone Browne's work around biometric survellance of blackness — In the Modern digital era.</p>
+                <p class="font">A creative statement expanding on Simone Browne's work around biometric surveillance of blackness — In the Modern digital era.</p>
                 <p class="font">Hover over the interactive multimedia on the right, outlining the biometric characteristics.</p>
                 <span class="blinking">I</span>
             </div>
