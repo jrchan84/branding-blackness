@@ -27,7 +27,7 @@ class Statement extends Component {
                   We also provide examples of racial bias in other technologies, namely voice recognition, online typing style, and others.
                   <br></br>
                   <br></br>
-                  Ultimately, many of these technologies were created by white developers, for white users. Unless we eliminate the biases that are already present within these applications and its datasets, we cannot hope that machines will reflect fair and accurate conclusions.
+                  These technologies utilize data at face value and their results are commonly misused as objective truths. Unless we eliminate the biases that are already present within these applications and its datasets, we cannot hope that machines will reflect fair and accurate conclusions.
                   When punitive action is so often taken as a direct result of these biometric measurements, it’s essential that we aim to eliminate biases. When the question of whether you qualify of healthcare, can board your flight on time without invasive pat-downs, can express your thoughts online without fear of censorship, or will be sleeping in a jail cell tonight, it is essential that the data that is drawn from these algorithms can act in a non-biased manner and exemplify true and just judgement.
                   <br></br>
                   <br></br>
