@@ -67,7 +67,7 @@ class ParticlesComponent extends Component {
                 blink: false,
                 color: "#05f7c0",
                 consent: false,
-                distance: 30,
+                distance: 35,
                 enable: true,
                 opacity: 0.3,
                 width: 0.5
@@ -83,7 +83,7 @@ class ParticlesComponent extends Component {
               },
               number: {
                 limit: 0,
-                value: 200
+                value: 175
               },
               opacity: {
                 random: true,
@@ -93,8 +93,8 @@ class ParticlesComponent extends Component {
                 type: "circle"
               },
               size: {
-                random: true,
-                value: 1.5
+                random: false,
+                value: 1
               }
             },
             polygon: {
