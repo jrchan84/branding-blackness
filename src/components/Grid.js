@@ -17,7 +17,6 @@ export const CRow = styled.div`
 `;
 
 export const CCol = styled.div`
-
   flex: ${(props) => props.size};
   ${(props) => props.collapse && media[props.collapse](`
     display: none;

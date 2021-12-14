@@ -12,12 +12,19 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 function App() {
   return (
     <div className="App">
+      <CRow>
+        <CCol size={1} collapse="xs">
+          <div id="overlay-t"></div>
+        </CCol>
+      </CRow>
       <CGrid>
         <CRow>
           <CCol size={1}>
-            <PageHeader/>
+            <div className="hero">
+              <PageHeader/>
+            </div>
           </CCol>
-          <CCol size={2} collapse="xs">
+          <CCol size={1} collapse="xs">
             <ParticlesComponent/>
           </CCol>
         </CRow>
@@ -32,6 +39,11 @@ function App() {
         <Timeline/>
         <Footer/>
       </CGrid>
+      <CRow>
+        <CCol size={1} collapse="xs">
+          <div id="overlay-b"></div>
+        </CCol>
+      </CRow>
     </div>
   );
 }

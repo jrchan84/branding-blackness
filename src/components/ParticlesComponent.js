@@ -31,60 +31,48 @@ class ParticlesComponent extends Component {
               zIndex: 99
             },
             detectRetina: false,
-            fpsLimit: 45,
+            fpsLimit: 30,
             interactivity: {
               detectsOn: "parent",
               events: {
                 onHover: {
                   enable: true,
-                  mode: ["connect", "grab"]
+                  mode: "connect"
                 },
-                resize: true
+                resize: false
               },
               modes: {
                 connect: {
-                  distance: 15,
+                  distance: 20,
                   links: {
                     opacity: 0.5,
                   },
-                  radius: 125
+                  radius: 50
                 },
                 grab: {
-                  distance: 125,
+                  distance: 50,
                   links: {
                     blink: false,
                     consent: false,
-                    opacity: 0.2
+                    opacity: 0.25
                   }
                 }
               }
             },
             particles: {
               color: {
-                value: "#05f7c0",
-                animation: {
-                  enable: false,
-                  speed: 10,
-                  sync: true
-                }
+                value: "#05f7c0"
               },
               lineLinked: {
                 blink: false,
                 color: "#05f7c0",
                 consent: false,
-                distance: 35,
+                distance: 30,
                 enable: true,
                 opacity: 0.3,
-                width: 0.7
+                width: 0.5
               },
               move: {
-                attract: {
-                  enable: false,
-                  rotate: {
-                    x: 600,
-                    y: 1200
-                  }
-                },
                 bounce: false,
                 direction: "none",
                 enable: true,
@@ -98,12 +86,6 @@ class ParticlesComponent extends Component {
                 value: 200
               },
               opacity: {
-                animation: {
-                  enable: true,
-                  minimumValue: 0.05,
-                  speed: 2,
-                  sync: false
-                },
                 random: true,
                 value: 0.5
               },
@@ -111,14 +93,8 @@ class ParticlesComponent extends Component {
                 type: "circle"
               },
               size: {
-                animation: {
-                  enable: false,
-                  minimumValue: 0.1,
-                  speed: 40,
-                  sync: false
-                },
                 random: true,
-                value: 1
+                value: 1.5
               }
             },
             polygon: {
@@ -128,7 +104,7 @@ class ParticlesComponent extends Component {
                 lineWidth: 0.6
               },
               move: {
-                radius: 5,
+                radius: 4,
                 type: "path"
               },
               inlineArrangement: "equidistant",
@@ -136,8 +112,8 @@ class ParticlesComponent extends Component {
               type: "inline",
               url: "https://cdn.jrchan.dev/mask-2.svg",
               position: {
-                x: 30,
-                y: 0
+                x: 20,
+                y: 15
               }
             }
           }}
